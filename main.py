@@ -26,3 +26,10 @@ def is_leap(year):
     return leap
 
 year = int(input())
+
+n=int(input())
+countrys=set()
+for i in range(n):
+    country=input().strip()
+    countrys.add(country)
+print(len(countrys))
